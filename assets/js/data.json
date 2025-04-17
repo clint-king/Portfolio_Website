@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Post Doc Sphere",
+        "stack": "React, Tailwind css, Node.js, Express.js , MySQL",
+        "description":"The Automated PDRF Management System streamlines application tracking, progress monitoring, stipend allocation, and collaborations. It features real-time updates, early detection mechanisms, automated progress reporting, and a host matching algorithm to enhance efficiency and support. Additionally, robust data management protocols ensure consistency and accuracy, while insightful reporting tools aid decision-making. Built with scalability and flexibility in mind, the system improves oversight, reduces administrative workload, and fosters productive collaborations, ultimately enhancing the effectiveness of the PDRF program.",
+        "youtubeLink":"https://www.youtube.com/embed/COi5mfWA2as?si=B-bN6o_qZdEwK5pQ",
+        "githubLink":"https://github.com/clint-king/Postdoc-sphere.git",
+        "gallery":[
+            {
+                "imageSrc": "./images/project1/Screenshot 2025-04-16 171041.png",
+                "imageAlt": "form pages",
+                "description": "One of the form pages"
+            },
+            {
+                "imageSrc": "./images/project1/Screenshot 2025-04-16 173210.png",
+                "imageAlt": "Viewing Application status",
+                "description": "Viewing Application status"
+            },
+            {
+                "imageSrc": "./images/project1/Screenshot 2025-04-16 173243.png",
+                "imageAlt": "Viewing available Hosts",
+                "description": "Viewing available Hosts"
+            },
+            {
+                "imageSrc": "./images/project1/Screenshot 2025-04-16 173319.png",
+                "imageAlt": "Signing Agreement digital form",
+                "description": "Signing Agreement digital form"
+            },
+            {
+                "imageSrc": "./images/project1/Screenshot 2025-04-16 173918.png",
+                "imageAlt": "Viewing prgress of PDRFs per faculty",
+                "description": "Viewing prgress of PDRFs per faculty"
+            },
+            {
+                "imageSrc": "./images/project1/Screenshot 2025-03-13 215055.png",
+                "imageAlt": "reports about finance , applications ,agreements , PDRF progress",
+                "description": "reports about finance , applications ,agreements , PDRF progress"
+            }
+        ]
+        
+    },
+    {
+        "title": "Obstacle Avoid",
+        "stack": "Java , Libgdx, Android studio",
+        "description":"Obstacle Avoid is a fast-paced arcade-style game developed using libGDX, where players navigate a dynamic environment and dodge incoming obstacles to achieve the highest score possible. Built from scratch with a custom game engine, the game features adjustable difficulty levels, a persistent high score system using libGDX Preferences, and intuitive controls for an engaging user experience. Designed to challenge reflexes and focus, Obstacle Avoid showcases my ability to implement core game mechanics, manage game state, and deliver a polished gameplay experience.",
+        "youtubeLink":"https://www.youtube.com/embed/jwLedNjF5j4?si=cJXRkZ2D7tiI0Bf0",
+        "githubLink":"https://github.com/clint-king/Obstacle-Avoid.git",
+        "gallery":[
+            {
+                "imageSrc": "./images/project2/Screenshot 2025-04-16 124208.png",
+                "imageAlt": "Menu page",
+                "description": "Menu page"
+            },
+            {
+                "imageSrc": "./images/project2/Screenshot 2025-04-16 133117.png",
+                "imageAlt": "Playing Screen",
+                "description": "Playing Screen"
+            },
+            {
+                "imageSrc": "./images/project2/Screenshot 2025-04-16 132935.png",
+                "imageAlt": "Highscore screen",
+                "description": "Highscore screen"
+            },
+            {
+                "imageSrc": "./images/project2/Screenshot 2025-04-16 133028.png",
+                "imageAlt": "Dificulty setting screen",
+                "description": "Dificulty setting screen"
+            }
+        ]
+        
+    }
+]
+
