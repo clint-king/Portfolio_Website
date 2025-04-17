@@ -4045,7 +4045,10 @@ input, select, textarea {
     background-size: cover;
 }
 .tiles article:nth-child(2) {
-    background-image: url('images/project2.jpg');
+    background-image: url('../../images/Screenshot 2025-04-16 131831.png') !important;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .tiles article:nth-child(3) {
     background-image: url('images/project3.jpg');
