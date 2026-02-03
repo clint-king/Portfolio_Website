@@ -4051,7 +4051,10 @@ input, select, textarea {
     background-size: cover;
 }
 .tiles article:nth-child(3) {
-    background-image: url('images/project3.jpg');
+    background-image: url('../../images/Screenshot 2026-02-01 154403.png')!important;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .tiles article:nth-child(4) {
     background-image: url('images/project4.jpg');
@@ -4116,6 +4119,53 @@ input, select, textarea {
 
 .tiles article:hover:before {
     opacity: 0;
+}
+
+#one.tiles {
+	display: grid !important;
+	grid-template-columns: repeat(2, 1fr) !important;
+	gap: 2em;
+	flex-wrap: unset;
+	-moz-flex-wrap: unset;
+	-webkit-flex-wrap: unset;
+	-ms-flex-wrap: unset;
+	background-color: #242943;
+}
+
+#one.tiles article {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+@media screen and (max-width: 980px) {
+	#one.tiles {
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+	
+	#one.tiles article {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	#one.tiles {
+		grid-template-columns: 1fr !important;
+	}
+	
+	#one.tiles article {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#one.tiles {
+		display: grid !important;
+		grid-template-columns: 1fr !important;
+	}
+	
+	#one.tiles article {
+		width: 100% !important;
+	}
 }
 
 #three{

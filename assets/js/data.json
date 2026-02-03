@@ -68,6 +68,39 @@
             }
         ]
         
+    },{
+        "title": "Teksimap (Taxi Routing & Fare Estimation System )",
+        "stack": "Vanilla Javascript, Node.js,Express.js , MySQL",
+        "description":"Teksimap is a location-based web platform that helps users find public taxi routes to their destinations and estimate the cost of their trips. Built using real-world data collected from taxi operators, the system combines custom routing logic with mapping services to provide practical, easy-to-understand navigation. Users can also suggest new routes by drawing them directly on the map, which are reviewed and approved by an admin before becoming available on the platform. The project was developed end-to-end, covering backend services, performance optimization, deployment, and a user-focused interface designed to solve a real transportation problem.",
+        "youtubeLink":"https://www.youtube.com/embed/jwLedNjF5j4?si=cJXRkZ2D7tiI0Bf0",
+        "githubLink":"https://github.com/clint-king/Obstacle-Avoid.git",
+        "gallery":[
+            {
+                "imageSrc": "./images/project3/Screenshot 2026-02-01 154403.png",
+                "imageAlt": "Finding route and price estimation page",
+                "description": "Finding route and price estimation page"
+            },
+            {
+                "imageSrc": "./images/project3/Screenshot 2026-02-01 163327.png",
+                "imageAlt": "suggest new routes page",
+                "description": "suggest new routes page"
+            },
+            {
+                "imageSrc": "./images/project3/Screenshot 2026-02-01 163719.png",
+                "imageAlt": "Feedback page",
+                "description": "Feedback page"
+            },
+            {
+                "imageSrc": "./images/project3/Screenshot 2026-02-01 163804.png",
+                "imageAlt": "Help page",
+                "description": "Help page"
+            },
+            {
+                "imageSrc": "./images/project3/Screenshot 2026-02-01 163126.png",
+                "imageAlt": "Finding route and price estimation page (Mobile version)",
+                "description": "Finding route and price estimation page (Mobile version)"
+            }
+        ]
     }
 ]
 
