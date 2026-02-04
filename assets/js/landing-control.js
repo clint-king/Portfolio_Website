@@ -35,7 +35,12 @@ if(rank){
                 createYouTubeIframe(block.youtubeLink);
 
                 //insert appropriate github link
-                projectLink.href = block.githubLink;
+                if(block.githubLink){   
+                    projectLink.href = block.githubLink;
+                    projectLink.innerHTML = "<img src='./images/github-mark-white.png'> <p>project link </p>";
+                }else{
+                    projectLink.innerHTML = "<p>project link not available (private repo)</p>";
+                }
             }
 
         });
