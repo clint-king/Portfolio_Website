@@ -71,9 +71,9 @@
     },{
         "title": "Teksimap (Taxi Routing & Fare Estimation System )",
         "stack": "Vanilla Javascript, Node.js,Express.js , MySQL",
-        "description":"Teksimap is a location-based web platform that helps users find public taxi routes to their destinations and estimate the cost of their trips. Built using real-world data collected from taxi operators, the system combines custom routing logic with mapping services to provide practical, easy-to-understand navigation. Users can also suggest new routes by drawing them directly on the map, which are reviewed and approved by an admin before becoming available on the platform. The project was developed end-to-end, covering backend services, performance optimization, deployment, and a user-focused interface designed to solve a real transportation problem.",
+        "description":"Teksimap is a marketplace and navigation platform for long-distance minibus taxi transportation in South Africa. It connects passengers and parcels with drivers, while providing map-based directional guidance built around existing taxi routes. In the video demonstration, only the taxi route navigation system is shown; the booking and marketplace functionality is not included in that demo.",
         "youtubeLink":"https://www.youtube.com/embed/apt-7Tdd9zU?si=ktwPu9IX6MkGpAZi",
-        "githubLink":"",
+        "githubLink":"https://github.com/clint-king/TaxiMap_repo.git",
         "gallery":[
             {
                 "imageSrc": "./images/project3/Screenshot 2026-02-01 154403.png",
