@@ -88,16 +88,18 @@ function createGalleryItem(imageSrc, imageAlt, description) {
 
 
 function createYouTubeIframe(videoSrc) {
-    
-    const iframe = document.createElement('iframe');
-    iframe.width = '800';
-    iframe.height = '400';
-    iframe.src = videoSrc;
-    iframe.title = 'YouTube video player';
-    iframe.frameBorder = '0';
-    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-    iframe.allowFullscreen = true;
-  
-    linkSection.prepend(iframe);
+    videoSrc.forEach(vidSrc =>{
+        const iframe = document.createElement('iframe');
+        iframe.width = '800';
+        iframe.height = '400';
+        iframe.src = vidSrc;
+        iframe.title = 'YouTube video player';
+        iframe.frameBorder = '0';
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+        iframe.allowFullscreen = true;
+      
+        linkSection.prepend(iframe);
+    });
+
   }
